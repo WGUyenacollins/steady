@@ -50,8 +50,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<!-- Specify as system property (-D) -->
-		<snapshots.repo></snapshots.repo>
-		<releases.repo></releases.repo>
+		<snapshots.repo/>
+		<releases.repo/>
 	</properties>
 
 	<distributionManagement>
@@ -116,7 +116,7 @@
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpclient</artifactId>
-			<version>4.5.10</version>
+			<version>4.5.13</version>
 		</dependency>
 		<dependency>
 			<groupId>commons-io</groupId>
